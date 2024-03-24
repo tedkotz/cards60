@@ -253,8 +253,7 @@ First to 500 loses.
 
 
 
-~21 popular card games
----------------------
+## ~21 popular card games
 - 500 Rum
 - Blackjack (aka 21)
 - Bridge (Contract Bridge)
