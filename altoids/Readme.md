@@ -1,0 +1,18 @@
+Altoids(r) Tin Sized playing Cards
+==================================
+
+This is a set of print and play cards and instruction sheet for the 60-card
+deck of playing cards. these cards are sized such that if printed on standard
+US 8.5x11 paper that cards will fit in a mint tin for ease of transport. it also
+includes a set of rules for common card games printed
+
+
+#### Notes
+
+Instruction sheet should be accordion folded 3x5 to fit nicely in the tin.
+This means it could be split in to 30 little pages to organize the games.
+
+The target size of the playing cards themselves is 2x3.5 which means 12 could
+be fit on an 8.5x11 piece of paper. Which would only require 5 sheet of paper
+for all 60 card. if you wanted to monochrome print them in black and red, then
+it would take 6.
