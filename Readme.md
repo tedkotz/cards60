@@ -17,13 +17,13 @@ For example, it can be evenly dealt between 2,3,4,5, or 6 players allowing for t
 Just for reference in case a reminder is needed on how a 52-card deck of playing
 cards work.
 
-### Suits (4ths)
+#### Suits (4ths)
 - Clubs
 - Diamonds
 - Hearts
 - Spades
 
-### Ranks (13ths)
+#### Ranks (13ths)
 - 2
 - 3
 - 4
@@ -38,7 +38,7 @@ cards work.
 - King
 - Ace (or 1)
 
-### Colors (1/2)
+#### Colors (1/2)
 - Red
     - Diamonds
     - Hearts
@@ -53,13 +53,13 @@ Every card from the standard 52-card deck has an equivalent so you can easily fi
 down to a 52-card deck is needed. 2 more ranks are added to get to 60 cards 1s and Maids.
 The ten can also be abbreviated as the 0 in the corner, but with 10 icons.
 
-### Suits (4ths)
+#### Suits (4ths)
 - Clubs
 - Diamonds
 - Hearts
 - Spades
 
-### Ranks (15ths)
+#### Ranks (15ths)
 - 1
 - 2
 - 3
@@ -76,16 +76,16 @@ The ten can also be abbreviated as the 0 in the corner, but with 10 icons.
 - K ing
 - A ce
 
-### Colors (1/2)
+#### Colors (1/2)
 - Red
 - Black
 
-### Thirds
+#### Thirds
 - Low 1-5
 - High 6-0
 - Faces J-A
 
-##### Fifths
+#### Fifths
 - Low      1-3
 - Medium   4-6
 - High     7-9
@@ -98,14 +98,14 @@ This is a split that highlights making the cards as divisible as possible.
 There are only 12 Ranks, so we merge the Jack and 10.
 The 5 suits are not divisible so the suits don't directly follow the colors.
 
-### Suits (5ths)
+#### Suits (5ths)
 - Clubs
 - Diamonds
 - Hearts
 - Spades
 - Moons (or Crescents)
 
-### Ranks (12ths)
+#### Ranks (12ths)
 - 2
 - 3
 - 4
@@ -119,7 +119,7 @@ The 5 suits are not divisible so the suits don't directly follow the colors.
 - K ing
 - A ce (or 1)
 
-### Colors (1/2 and 1/4)
+#### Colors (1/2 and 1/4)
 - Warm
     - Red (or Magenta)
     - Yellow
@@ -134,21 +134,19 @@ The 5 suits are not divisible so the suits don't directly follow the colors.
 |Green  |K29   |A56      |J47    |Q38    |Q38   |
 |Blue   |A56   |J47      |Q38    |K29    |J47   |
 
-### Thirds
+#### Thirds
 - Low 2-5
 - High 6-9
 - Faces J-A
 
 60 Decimalized
 --------------
-
 The ranks of the cards could be reduced down to just the 10 digits.
 This then allows for there to be 6 suits, which is also a highly composite number
 So it can be split into 2 different sub-groupings (of 2 or 3) maybe by color and
 general shape?
 
-
-### Color & Suits
+#### Color & Suits
 - Red
     - Diamonds
     - Hearts
@@ -158,7 +156,7 @@ general shape?
     - Spades
     - Moons (or Crescents)
 
-### Suit Classes (3rds)
+#### Suit Classes (3rds)
 - Rounded
     - Clubs
     - Hearts
@@ -169,7 +167,7 @@ general shape?
     - Pentacles
     - Moons
 
-### Rank
+#### Rank
 - 1
 - 2
 - 3
@@ -183,10 +181,9 @@ general shape?
 
 60 Factorised Options
 ---------------------
-
 There are 4 prime factors in 60(2*2*3*5) so each could be it's own suit dimension.
 
-### Colors (1/2 and 1/4)
+#### Colors (1/2 and 1/4)
 - Warm
     - Red
     - White (Yellow)
@@ -194,22 +191,22 @@ There are 4 prime factors in 60(2*2*3*5) so each could be it's own suit dimensio
     - Green
     - Black (Blue)
 
-### Class
+#### Class
 - Worker
 - Noble
 - Royal
 
-### Suits (5ths)
+#### Suits (5ths)
 - Clubs
 - Diamonds
 - Hearts
 - Spades
 - Moons (or Crescents)
 
-### Even/Odd
+#### Even/Odd
 By number
 
-### Suits (4ths)
+#### Suits (4ths)
 - Rounded
     - Clubs
     - Hearts
@@ -217,7 +214,7 @@ By number
     - Diamonds
     - Spades
 
-### Rank
+#### Rank
 - 1 Clubs
 - 2 Diamonds
 - 3 Hearts
@@ -228,7 +225,6 @@ By number
 - 8 Hearts
 - 9 Diamonds
 - 0 Clubs (10)
-
 
 
 Game Rules
@@ -257,45 +253,41 @@ First to 500 loses.
 
 
 
-
-
-
-
 ~21 popular card games
 ---------------------
-500 Rum
-Blackjack (aka 21)
-Bridge (Contract Bridge)
-Canasta
-Cheat
-Crazy Eights
-Cribbage (Noddy)
-Durak
-Egyptian Ratscrew
-Euchre
-Gin Rummy
-Go Fish
-Hearts
-Kings in the corner
-Klondike
-Old Maid
-Palace
-Patience
-Peanuts
-Pinochle
-Poker
-Poker
-Rummy
-Sergeant Major
-Skat
-Solitaire
-Spades
-Spite and Malice
-Switch
-Texas Hold Em
-UNO
-War
-Whist
+- 500 Rum
+- Blackjack (aka 21)
+- Bridge (Contract Bridge)
+- Canasta
+- Cheat
+- Crazy Eights
+- Cribbage (Noddy)
+- Durak
+- Egyptian Ratscrew
+- Euchre
+- Gin Rummy
+- Go Fish
+- Hearts
+- Kings in the corner
+- Klondike
+- Old Maid
+- Palace
+- Patience
+- Peanuts
+- Pinochle
+- Poker
+- Poker
+- Rummy
+- Sergeant Major
+- Skat
+- Solitaire
+- Spades
+- Spite and Malice
+- Switch
+- Texas Hold Em
+- UNO
+- War
+- Whist
 
 
 
