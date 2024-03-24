@@ -1,0 +1,64 @@
+ TL+                        +                        +                        +TR
+
+        J                        J                     Rank Order:
+        o                        o                      1 2 3 4 5 6 7 8
+        k                        k                       9 0 J M Q K A
+        e                        e                     Hearts:
+        r  XXXXXXXXXX            r  YYYYYYYYYY         Trick taking game.
+           XXXXXXXXXX               YYYYYYYYYY         Lowest Clubs(1C) leads
+           XXXXXXXXXX               YYYYYYYYYY         first. Avoid capturing
+           XXXXXXXXXX               YYYYYYYYYY         hearts at 1 point a
+           XXXXXXXXXX               YYYYYYYYYY         piece or the queen of
+           XXXXXXXXXX               YYYYYYYYYY         spades, 13 points. No
+           XXXXXXXXXX               YYYYYYYYYY         leading a point card
+           XXXXXXXXXX               YYYYYYYYYY         until one is played.
+           XXXXXXXXXX               YYYYYYYYYY         Taking all the hearts
+           XXXXXXXXXX  r            YYYYYYYYYY  r      and the queen, gives
+                       e                        e      all points to each
+                       k                        k      opponent instead.
+                       o                        o      First to 500 loses.
+                       J                        J
+
+ --+                        +                        +                        +--
+
+        Q                        K                       A
+        H                        H                       H
+             Q     Q
+            Q Q   Q Q                K   K   K
+           Q   Q Q   Q              K K K K K K               HH    HH
+          Q     Q     Q            K   K   K   K             HHHH  HHHH
+          QQQQQQQQQQQQQ            KKKKKKKKKKKKK            HHHHHHHHHHHH
+          QH         HQ            H           H            HHHHHHHHHHHH
+          QH  H   H  HQ            H   H   H   H            HHHHHHHHHHHH
+          QH    H    HQ            H     H     H             HHHHHHHHHH
+          QH  H   H  HQ            H  H     H  H              HHHHHHHH
+          QH   HHH   HQ            H   HHHHH   H               HHHHHH
+         Q  H       H  Q            H         H                 HHHH
+             HHHHHHH                 HHHHHHHHH                   HH
+
+
+                       H                        H                       H
+                       Q                        K                       A
+
+ --+                        +                        +                        +--
+
+        Q                        K                       A
+        S                        S                       S
+             Q     Q
+            Q Q   Q Q                K   K   K
+           Q   Q Q   Q              K K K K K K                  SS
+          Q     Q     Q            K   K   K   K                SSSS
+          QQQQQQQQQQQQQ            KKKKKKKKKKKKK               SSSSSS
+          QS         SQ            S           S              SSSSSSSS
+          QS  S   S  SQ            S   S   S   S             SSSSSSSSSS
+          QS    S    SQ            S     S     S             SSSSSSSSSS
+          QS  S   S  SQ            S  S     S  S             SSSS  SSSS
+          QS   SSS   SQ            S   SSSSS   S              SS SS SS
+         Q  S       S  Q            S         S                  SS
+             SSSSSSS                 SSSSSSSSS                  SSSS
+
+
+                       S                        S                       S
+                       Q                        K                       A
+
+ BL+                        +                        +                        +BR

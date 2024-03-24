@@ -1,0 +1,64 @@
+ TL+                        +                        +                        +TR
+
+        0                        J                        M
+        S                        S                        S
+
+                                                              MMM   MMM
+           S        S                                        M   M M   M
+                S                     SSSSSSS               M  SSSMSSS  M
+                                     S       S              M S       S M
+           S        S               S         S             MS         SM
+                                    S  S   S  S             MS  S   S  SM
+                                    S    S    S             MS    S    SM
+           S        S               S  S   S  S             MS  S   S  SM
+                S                   S   SSS   S             MS   SSS   SM
+                                     S       S             M  S       S  M
+           S        S                 SSSSSSS                  SSSSSSS
+
+
+                       S                        S                        S
+                       0                        J                        W
+
+ --+                        +                        +                        +--
+
+        Q                        K                       A
+        C                        C                       C
+             Q     Q
+            Q Q   Q Q                K   K   K
+           Q   Q Q   Q              K K K K K K                 CCCC
+          Q     Q     Q            K   K   K   K               CCCCCC
+          QQQQQQQQQQQQQ            KKKKKKKKKKKKK               CCCCCC
+          QC         CQ            C           C                CCCC
+          QC  C   C  CQ            C   C   C   C             CCC CC CCC
+          QC    C    CQ            C     C     C            CCCCCCCCCCCC
+          QC  C   C  CQ            C  C     C  C            CCCCC  CCCCC
+          QC   CCC   CQ            C   CCCCC   C             CCC CC CCC
+         Q  C       C  Q            C         C                  CC
+             CCCCCCC                 CCCCCCCCC                  CCCC
+
+
+                       C                        C                       C
+                       Q                        K                       A
+
+ --+                        +                        +                        +--
+
+        Q                        K                       A
+        D                        D                       D
+             Q     Q
+            Q Q   Q Q                K   K   K
+           Q   Q Q   Q              K K K K K K                  DD
+          Q     Q     Q            K   K   K   K                DDDD
+          QQQQQQQQQQQQQ            KKKKKKKKKKKKK               DDDDDD
+          QD         DQ            D           D              DDDDDDDD
+          QD  D   D  DQ            D   D   D   D             DDDDDDDDDD
+          QD    D    DQ            D     D     D             DDDDDDDDDD
+          QD  D   D  DQ            D  D     D  D              DDDDDDDD
+          QD   DDD   DQ            D   DDDDD   D               DDDDDD
+         Q  D       D  Q            D         D                 DDDD
+             DDDDDDD                 DDDDDDDDD                   DD
+
+
+                       D                        D                       D
+                       Q                        K                       A
+
+ BL+                        +                        +                        +BR
