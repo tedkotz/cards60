@@ -1,0 +1,154 @@
+* {
+ border: none;
+ padding: 0;
+ margin: 0;
+}
+
+html {
+ color: green;
+ font:  bold 10pt "Noto Sans Mono";
+}
+
+body {
+ display: grid;
+ grid-template-columns: 2in 2in 2in 2in;
+ grid-column-gap: 0in;
+ grid-row-gap: 0;
+ width: 8in;
+}
+
+.vcard {
+  position: relative;
+ /* width+height+padding = 2x3.5 */
+ width: 1.75in;
+ height: 3in;
+ padding: 0.25in 0.125in 0.25in 0.125in;
+}
+
+.vcard:nth-of-type(12n) {
+  break-after: page;
+}
+
+.vcard>.corner {
+  position: absolute;
+  height: 1.125in;
+  width: 0.375in;
+}
+
+.vcard>.corner>.rank,
+.vcard>.corner>.suit {
+  font-size: 0.55in;
+  text-align: center;
+  line-height: 0.5625in;
+  height: 0.5625in;
+  width: 0.375in;
+}
+
+.vcard>.corner:first-of-type {
+  left: 0.125in;
+  top: 0.125in;
+}
+
+.vcard>.corner:last-of-type {
+  left: 1.5in;
+  top: 2.25in;
+  transform: rotate(180deg);
+}
+
+.vcard>.field {
+  position: absolute;
+  left: 0.4875in; /* (.vcard full width - width)/2 - border  */
+  top: 0.7375in;
+  height: 2in;
+  width: 1in;
+  border: blue 0.0125in solid;
+}
+
+.vcard>.field>.ace {
+  font-size:  1in;
+  line-height: 2in;
+  height: 2in;
+  width: 1in;
+  text-align: center;
+}
+
+.vcard>.field>.pip {
+  position: absolute;
+  font-size:  0.45in;
+  line-height: 0.5in;
+  height: 0.5in;
+  width: 0.25in;
+  text-align: center;
+}
+
+.vcard>.field>.pip:nth-of-type(1),
+.vcard>.field>.pip:nth-of-type(3),
+.vcard>.field>.pip:nth-of-type(6),
+.vcard>.field>.pip:nth-of-type(9),
+.vcard>.field>.pip:nth-of-type(11),
+.vcard>.field>.pip:nth-of-type(14) {
+  left: 0.125in;
+}
+
+.vcard>.field>.pip:nth-of-type(4),
+.vcard>.field>.pip:nth-of-type(8),
+.vcard>.field>.pip:nth-of-type(12) {
+  left: 0.375in;
+}
+
+.vcard>.field>.pip:nth-of-type(2),
+.vcard>.field>.pip:nth-of-type(5),
+.vcard>.field>.pip:nth-of-type(7),
+.vcard>.field>.pip:nth-of-type(10),
+.vcard>.field>.pip:nth-of-type(13),
+.vcard>.field>.pip:nth-of-type(15) {
+  left: 0.625in;
+}
+
+.vcard>.field>.pip:nth-of-type(1),
+.vcard>.field>.pip:nth-of-type(2) {
+  top: 0in;
+}
+
+.vcard>.field>.pip:nth-of-type(3),
+.vcard>.field>.pip:nth-of-type(4),
+.vcard>.field>.pip:nth-of-type(5) {
+  top: 0.25in;
+}
+
+.vcard>.field>.pip:nth-of-type(6),
+.vcard>.field>.pip:nth-of-type(7) {
+  top: 0.5in;
+}
+
+.vcard>.field>.pip:nth-of-type(8) {
+  top: 0.75in;
+}
+
+.vcard>.field>.pip:nth-of-type(9),
+.vcard>.field>.pip:nth-of-type(10) {
+  top: 1in;
+  transform: rotate(180deg);
+}
+
+.vcard>.field>.pip:nth-of-type(11),
+.vcard>.field>.pip:nth-of-type(12),
+.vcard>.field>.pip:nth-of-type(13) {
+  top: 1.25in;
+  transform: rotate(180deg);
+}
+
+.vcard>.field>.pip:nth-of-type(14),
+.vcard>.field>.pip:nth-of-type(15) {
+  top: 1.5in;
+  transform: rotate(180deg);
+}
+
+
+@page
+{
+  size: letter portrait;
+  /* body(width+height)+page(margin) = 8.5x11 */
+  /* At the default 96 pix/in the rendered size of a page should be 816x1056 */
+  margin: 0.5in 0.25in;
+}
