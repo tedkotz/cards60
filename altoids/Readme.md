@@ -1,10 +1,10 @@
 Mint Tin Playing Cards
 ======================
-This is a custom set of print and play cards and instruction sheet sized such 
-that if printed on standard US 8.5x11 paper that cards will fit in an 
+This is a custom set of print and play cards and instruction sheet sized such
+that if printed on standard US 8.5x11 paper that cards will fit in an
 Altoids<sup>:registered:</sup> tin for ease of transport.
 
-These cards are the 60-card compatible deck of playing cards. 
+These cards are the 60-card compatible deck of playing cards.
 The instruction sheet is a set of rules for common card games.
 
 
@@ -34,3 +34,13 @@ the Queen, gives all
 points to each opponent
 instead.First to 500 loses.
 ```
+### Todo
+- [x] Create 60 cards
+- [ ] Card backs
+- [ ] Cut marks
+- [ ] A4 support
+- [ ] Portrait/Landscape support
+- [ ] Remove unused pips
+- [ ] Get Rules for games
+- [ ]
+- [ ]
