@@ -36,11 +36,11 @@ instead.First to 500 loses.
 ```
 ### Todo
 - [x] Create 60 cards
-- [ ] Card backs
-- [ ] Cut marks
+- [x] Card backs
+- [x] Cut marks
 - [ ] A4 support
 - [ ] Portrait/Landscape support
-- [ ] Remove unused pips
+- [x] Remove unused pips
 - [ ] Get Rules for games
 - [ ]
 - [ ]

@@ -15,22 +15,35 @@
 html {
  color: green;
  font-family: "DejaVu Sans Mono", monospace;
+ background-color: white;
 }
 
 body {
  display: grid;
  grid-template-columns: 2in 2in 2in 2in;
+ width: 8in;
  column-gap: 0;
  row-gap: 0;
  font-size: 100%;
 }
 
+.back {
+ border-radius: 3pt;
+ background-color: white;
+}
+
+.back>div {
+ border-radius: 0.25in;
+ background-image: radial-gradient(white, gray, red);
+}
+
+.back>div,
 .vcard {
-  position: relative;
- /* width+height+padding = 2x3.5 */
+ position: relative;
+ /* width+height+margin = 2x3.5 */
  width: 1.75in;
  height: 3in;
- padding: 0.25in 0.125in 0.25in 0.125in;
+ margin: 0.25in 0.125in 0.25in 0.125in;
 }
 
 .vcard>.corner {
@@ -56,21 +69,21 @@ body {
 }
 
 .vcard>.corner:first-of-type {
-  left: 0.125in;
-  top: 0.25in;
+  left: 0;
+  top: 0;
 }
 
 .vcard>.corner:last-of-type {
-  right: 0.125in;
-  bottom: 0.25in;
+  right: 0;
+  bottom: 0;
   transform: rotate(180deg);
 }
 
 .vcard>.field {
   position: absolute;
   box-sizing: border-box;
-  left: 0.5in;
-  top: 0.75in;
+  left: calc(50% - 0.5in);
+  top: calc(50% - 1in);
   height: 2in;
   width: 1in;
   border: blue 1pt solid;
@@ -143,36 +156,42 @@ body {
 @media screen and (max-width: 4in) {
 body{
  grid-template-columns: 2in;
+ width: 2in;
 }
 }
 
 @media screen and (min-width: 4in) and (max-width: 6in) {
 body{
  grid-template-columns: 2in 2in;
+ width: 4in;
 }
 }
 
 @media screen and (min-width: 6in) and (max-width: 8in) {
 body{
  grid-template-columns: 2in 2in 2in;
+ width: 6in;
 }
 }
 
 @media screen and (min-width: 8in) and (max-width: 10in) {
 body{
  grid-template-columns: 2in 2in 2in 2in;
+ width: 8in;
 }
 }
 
 @media screen and (min-width: 10in) and (max-width: 12in) {
 body{
  grid-template-columns: 2in 2in 2in 2in 2in;
+ width: 10in;
 }
 }
 
 @media screen and (min-width: 12in) {
 body{
  grid-template-columns: 2in 2in 2in 2in 2in 2in;
+ width: 12in;
 }
 }
 
@@ -181,6 +200,7 @@ body{
 @media print {
   body{
    grid-template-columns: 2in 2in 2in 2in 2in;
+   width: 10in;
   }
 
   .vcard:nth-of-type(10n) {
