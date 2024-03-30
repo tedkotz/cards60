@@ -235,6 +235,94 @@ Game Rules
 J M Q K A
 ```
 
+#### Terms
+Book
+: Having 4 cards of the same rank also 4 of a kind
+
+Pair
+: Having 2 cards of the same kind
+
+Cut for
+: dividing a deck into two piles
+
+
+#### Draw Lots (Cut for High Card)
+Often used to determine
+dealer, teams or first
+player. Each player
+reveals a random card
+from the deck. High card
+wins. Aces are high.
+For teams, the top 2 are
+a team, then the next 2
+are a team, etc.
+
+
+## ~21 popular card games
+
+#### 500 Rum
+#### Blackjack (21)
+TBD
+
+#### Bridge (Contract Bridge)
+#### Canasta
+#### Cheat
+
+#### Crazy Eights
+Each player gets 5 cards.
+Discard top card of deck.
+On each turn, You must
+draw cards until you can
+play a card that matches
+the suit or rank of the
+last  discard, or a
+Crazy 8 (declaring a new
+suit to match). Playing a
+2 the next player must
+draw 2 cards, unless they
+play a 2 instead the
+player after them must
+draw 4 etc. Playing a
+Queen skips the next
+player. Playing an Ace
+reverses the direction of
+play. First to shed their
+hand scores cards in all
+opponent's hands
+50 for 8s, rank for
+numbers and 10 for others.
+
+#### Cribbage (Noddy)
+#### Durak
+#### Egyptian Ratscrew
+#### Euchre
+#### Gin Rummy
+
+#### Go Fish
+Deal players 5 cards.
+Remaining cards are the
+pool. On each turn you
+ask any another player
+for their cards of a
+particular rank. They
+must hand over all cards
+of that rank if possible.
+If they have none, then
+you must "go fish" and
+draw a card from the
+pool. If the card drawn
+is the card asked for
+reveal it and take
+another turn. If at any
+time you have 4 cards of
+any rank, it forms a
+book, and the cards must
+be placed down face up.
+When all books have been
+completed, the player
+with the most books wins.
+
+
 #### Hearts
 Trick taking game.
 Lowest Clubs(1C) leads
@@ -250,46 +338,118 @@ all points to each
 opponent instead.
 First to 500 loses.
 
+#### Kings in the corner
+
+#### Old Maid
+3 queens are removed from
+a deck, the remaining
+queen is the Old Maid.
+Draw lots for dealer
+first player is to
+dealers left. Deal out
+cards. On each turn you
+play a matched pair or
+draw a card from the
+player on your left. If
+you have no more cards
+you win, removing you
+from play. Play continues
+to see who will be left
+with the Old Maid.
+
+#### Palace
+#### Patience
+#### Peanuts
+#### Pinochle
+
+#### Poker Hand Ranks
+The Poker hands from High to Low:
+1) 5 of a Kind/ 5 of 1 rank/ 5 rank
+2) Straight Flush/ consecutive ranks all same suit/ High card
+3) 4 of a Kind/ 4 of 1 rank / 4 rank first
+4) Full House/ 3 of 1 rank, 2 of another/ 3 rank then 2 rank
+5) Flush/ All same suit / High card
+6) Straight/ consecutive ranks/ High card
+3 of a Kind/ 3 of 1 rank/ 3 rank first
+2 Pair/ 2 of 1 rank, 2 of another/ High 2 rank, Low 2 rank, lone
+1 Pair/ 2 of 1 rank/ 2 rank first
+No Pairs/ Nothing above / Just high card
+
+#### Poker 5-card Draw
+#### Poker Stud
+#### Poker Hold 'em
+#### Rummy
+#### Sergeant Major
+#### Skat
+
+#### Solitaire (Klondike)
+
+#### Spades
+#### Spite and Malice
+#### Switch
+#### Texas Hold Em
+#### UNO
+
+#### War
+Divide cards evenly
+between all players,
+discarding extras. For
+each Battle, all players
+reveal the top card of
+their deck. The player
+with the highest card
+captures all other cards
+putting them on the
+bottom of their deck.
+Ties result in a War
+between tied players.
+Each player in the war
+plays an extra card face
+down and then reveals a
+card face up as in the Battle.
+
+#### Whist
 
 
 
-## ~21 popular card games
-- 500 Rum
-- Blackjack (aka 21)
-- Bridge (Contract Bridge)
-- Canasta
-- Cheat
-- Crazy Eights
-- Cribbage (Noddy)
-- Durak
-- Egyptian Ratscrew
-- Euchre
-- Gin Rummy
-- Go Fish
-- Hearts
-- Kings in the corner
-- Klondike
-- Old Maid
-- Palace
-- Patience
-- Peanuts
-- Pinochle
-- Poker
-- Poker
-- Rummy
-- Sergeant Major
-- Skat
-- Solitaire
-- Spades
-- Spite and Malice
-- Switch
-- Texas Hold Em
-- UNO
-- War
-- Whist
 
+Blackjack
+70
 
+Poker
+60
+Hearts
+56
+Crazy Eights
+56
+Gin Rummy
+52
+Spades
+50
+Texas Hold'em
+41
+Seven Card Stud
+37
+Bullsh*t
+29
+Canasta
+24
+Spoons
 
+#### Pyramid (work in progress)
+create a card pyramid
+base level = 9 - number of players (min 4)
+take all the aces and kings out of the deck, deal one to each player.
+shuffle rest of deck deal 5 cards to each player.
+Turn
+1) Place a card from your hand on one of
+    a) A blank spot in your base level.
+    b) on top of two adjacent card
+2) Discard a card or Build again
+    a) if you can't Build again you must discard a card.
+3) Draw 2 cards from
+    a) draw pile, if empty grab the discard pile kee
+    b) at random from another player's hand they then draw a card.
 
 
 
