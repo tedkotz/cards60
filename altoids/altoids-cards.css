@@ -34,7 +34,7 @@ body {
 
 .back>div {
  border-radius: 0.25in;
- background-image: radial-gradient(white, gray, red);
+ background-image: radial-gradient(black 10%, red 95%);
 }
 
 .back>div,
