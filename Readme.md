@@ -227,38 +227,49 @@ By number
 - 0 Clubs (10)
 
 
+```
+pandoc -f markdown_mmd+task_lists+emoji+autolink_bare_uris -t html --filter pandoc-plantuml Readme.md > readme.html
+```
+
 Game Rules
 ----------
-```
-```
 
-Poker
-60
-Texas Hold'em
-41
-Seven Card Stud
-37
-
-
-
-#### Terms
+### Terms
 Pair
-: 2 cards of the same rank aka 2-of-a-kind
+: 2 cards of the same rank aka 2-of-a-kind.
 
 Triple
-: 3 cards of the same rank aka 3-of-a-kind
+: 3 cards of the same rank aka 3-of-a-kind.
 
 Quartet
-: 4 cards of the same rank aka 4-of-a-kind or book
+: 4 cards of the same rank aka 4-of-a-kind or book.
+
+Quintet
+: 5 cards of the same rank. Only possible with wilds or multiple decks.
+
+Eldest (Hand)
+: Player to the left of the dealer, usually first player.
 
 Play Order
-: Default play goes clockwise, with play passing to the left
+: Standard play starts with the Eldest Hand and goes clockwise, with play passing to the left.
 
 Fold
-: Forfeit of the game surrendering to move on to next game or hand
+: Forfeit of the game surrendering to move on to next game or hand.
 
 Rank
-: Ordered Low to High 1 2 3 4 5 6 7 8 9 0 J M Q K A
+: Ordered Low to High: 1 2 3 4 5 6 7 8 9 0 J M Q K A.
+
+Flush
+: Set of cards, usually 5, all same suit.
+
+Straight
+: Set of cards all of consecutive ranks.
+
+Straight Flush
+: Set of cards both a straight and a flush.
+
+Wild Cards
+: Card treated as if it were any card. Wild cards should be agreed  upon before play starts.
 
 
 #### Draw Lots (Cut for High Card)
@@ -302,20 +313,11 @@ turns, the house hand is
 fully revealed before it
 "plays".
 
-
-#### Cribbage (Noddy)
-*Players 2-6*
-#### Durak
-*Players 2-6*
-#### Switch
-*Players 2-6*
-
 #### Bluff
 *Players 2-6*
 Deal deck fully out to
 all players as their
-hands. Play progress to
-left from the dealer,
+hands. Standard play order
 starting with Aces. On
 your turn, you call out a
 number of 1 or more cards
@@ -337,9 +339,9 @@ takes them instead. You
 win when you run out of
 cards.
 
-#### Crazy Eights
+#### Crazy Eights / Switch
 *Players 2-8*
-Each player gets 5 cards.
+Deal players 5 cards.
 Discard top card of deck.
 On each turn, You must
 draw cards until you can
@@ -358,9 +360,14 @@ player. Playing an Ace
 reverses the direction of
 play. First to shed their
 hand scores cards in all
-opponent's hands
-50 for 8s, rank for
+opponent's hands.
+50 for 8s, face value for
 numbers and 10 for others.
+2 common additional rules:
+4 works like 2, but draws
+4 cards. When playing your
+2nd to last card you must
+announce it.
 
 #### Go Fish
 *Players 2-8*
@@ -391,14 +398,13 @@ with the most quartets wins.
 3 queens are removed from
 a deck, the remaining
 queen is the Old Maid.
-Draw lots for dealer
-first player is to
-dealers left. Deal out
-cards. On each turn you
-play a matched pair or
-draw a card from the
-player on your left. If
-you have no more cards
+Draw lots for dealer,
+standard play order.
+Deal out cards. On each
+turn you play a matched
+pair or draw a card from
+the player on your left.
+If you have no more cards
 you win, removing you
 from play. Play continues
 to see who will be left
@@ -506,27 +512,77 @@ out of cards they lose
 and are eliminated.
 
 ### Poker
-#### Hand Ranks
-The Poker hands from High to Low:
+In Home games dealer usually rotates with each hand.
 
-|Poker Hand    |Description               |Tie breaker   |
-|--------------|--------------------------|--------------|
-|5 of a Kind   |5 of 1 rank               |5 rank        |
-|Straight Flush|Straight and Flush        |High card     |
-|4 of a Kind   |4 of 1 rank               |4 rank first  |
-|Full House    |3 of 1 rank, 2 of another |3 rank, 2 rank|
-|Flush         |All same suit             |High card     |
-|Straight      |All consecutive ranks     |High card     |
-|3 of a Kind   |3 of 1 rank               |3 rank first  |
-|2 Pair        |2 of 1 rank, 2 of another |2 ranks first |
-|1 Pair        |2 of 1 rank               |2 rank first  |
-|No Pairs      |Nothing above             |High card     |
+#### Hand Ranks
+The Poker hands from High to Low, ties broken with high cards, in the largest set first.
+
+1. Quintet
+2. Straight and Flush
+3. Quartet
+4. Full House=Triple & Pair
+5. 5 card Flush
+6. 5 card Straight
+7. Triple
+8. 2 Pairs
+9. Pair
+10. No Pairs
 
 #### Betting
+A forced blind bet is
+played before dealing to
+start the winnings pot.
+
+For each round of betting,
+Before the first bet you
+may Check, not place a
+bet; or Open, make the
+first bet. After the open
+you may Fold, forfeit the
+hand losing any bets;
+Call, match the high bet
+or go all-in; Raise,
+increase the high bet.
+
+A player wishing to call,
+but with insufficient
+stakes may go all-in,
+betting all remaining
+stakes. This caps the
+high bet of main pot at
+the all-in amount. Any
+bets over this amount
+are placed in a side pot,
+and cannot be won by the
+all-in player.
+
+Once every player has
+folded, called or checked,
+betting is over.
+
+
 #### Poker, 5-card Draw
-*Players 2-6*
+*Players 2-8*
+Blind bets are placed.
+Deal players 5 cards. Then
+start the 1st betting
+round with the Eldest. In
+turn order each remaining
+player discards and is
+dealt a number of cards,
+up to 3, 4 cards may be
+discarded if the player
+reveals an Ace. Then
+start the 2nd betting
+round with whoever opened
+in the 1st round. In turn
+order, each remaining
+player reveals their hand.
+Best hand wins.
+
 #### Poker, 7-card Stud
 *Players 2-6*
+
 #### Poker, Texas Hold 'em
 *Players 2-6*
 
@@ -654,8 +710,8 @@ opponent instead.
 *Players 2-6 or 10*
 Usually teams of 2.
 Trump is always spades.
-Dealer's left bids and
-leads first. Each player
+Eldest bids and leads
+first. Each player
 bids number of tricks
 they will take. May bid
 blind, without looking at
@@ -680,35 +736,40 @@ otherwise -100 points.
 #### Trumps
 *Players 4, 6, or 10*
 Draw lots for teams of 2
-and dealer. Dealer's left
-calls trump and leads any
-card. Par is number of
-tricks divided by number
-of teams rounded up. First
+and dealer. Eldest calls
+trump and leads any card.
+Par is number of tricks
+divided by number of
+teams rounded up. First
 team to par scores: 1 for
 simple victory, 2 for
 perfect par, where
 opponents take no tricks,
-3 for perfect par if your
-team does not have the
-trump caller. 7 points
-wins.
+3 for perfect par if not
+the Eldest's team.
+7 points wins.
 
 #### Whist
 *Players 4, 6, or 10*
 Teams of 2. No bidding.
 The last card dealt is
 revealed to all player and
-is the trump suit.
-Dealer's left leads any
-card. Par is the number of
-tricks in the hand divided
-by the number of teams.
-The team with the most
-tricks taken scores 1 for
-each trick taken in excess
-of the par score.
-5 points wins.
+is the trump suit. Eldest
+leads any card. Par is
+the number of tricks in
+the hand divided by the
+number of teams. The team
+with the most tricks taken
+scores 1 for each trick
+taken in excess of the par
+score. 5 points wins.
+
+
+
+
+
+
+## TODO Games
 
 ### Patience Games
 #### Solitaire (Klondike)
@@ -719,6 +780,22 @@ of the par score.
 *Players 1*
 #### Kings in the corner
 *Players 1*
+
+#### Poker Commerce Hybrid
+
+#### Cassino
+
+
+#### Fool / Full Durak
+*Players 2-6*
+Deal players 6 cards.
+Place the bottom card of the deck face up to determine trump suit.
+Player with the lowest trump suit attacks first.
+Defender is always player to attacker's left.
+Attacker plays a card. Defender must play a higher value card of the same suit or any trump.
+
+
+stock is turned and placed face up on the table, its suit determining the trump suit for the current deal
 
 #### Pyramid (work in progress)
 *Players 1+*
@@ -738,9 +815,7 @@ Turn
     1. draw pile, if empty grab the discard pile keeping the same order
     2. at random from another player's hand they then draw a card.
 
-
-
-
-
+#### Cribbage
+*Players 2-8*
 
 
