@@ -393,6 +393,28 @@ all quartets have been
 completed, the player
 with the most quartets wins.
 
+#### Kings in the corner
+*Players 2-7*
+Deal players 7 cards.
+Place the deck in the
+middle of the tableau.
+Draw 4 cards placing 1 on
+each side of the deck,
+with open corner space. On
+your turn, you may make
+any number of valid
+placements: King to an
+empty corner. Card to an
+empty side. Card to a side
+such that is is place on
+top of a card 1 rank higher
+with opposite color. Move
+an entire side pile as if
+it was the bottom card of
+the pile. End your turn by
+drawing a card. First to
+empty their hand wins.
+
 #### Old Maid
 *Players 2-11*
 3 queens are removed from
@@ -413,12 +435,12 @@ with the Old Maid.
 #### Palace
 *Players 2-6*
 Deal each player 9 cards,
-3 downcards in a row,
-3 upcards face up on the
-downcards, and 3 hand
+3 down-cards in a row,
+3 up-cards face up on the
+down-cards, and 3 hand
 cards. The hand cards
 must all be played before
-upcards which must be
+up-cards which must be
 played before down cards.
 Before play begins player
 may swap cards between
@@ -433,7 +455,7 @@ higher rank than the last
 card discarded or you
 must take the entire
 discard pile into your
-hand. Downcards are
+hand. Down-cards are
 played site unseen and if
 the card played is less
 than the last discard you
@@ -455,8 +477,43 @@ either all at once or
 across multiple turns, it
 is the same as a 10. The
 last player to empty
-their hand, upcards and
-downcards loses.
+their hand, up-cards and
+down-cards loses.
+
+#### Solitaire (Klondike)
+*Players 1*
+Deal 7 face down play
+piles, each contains 1
+more card from left to
+right. The top card on
+each pile is face up.
+There are 4 initially
+empty goal piles. The
+goal piles can have the
+lowest rank placed on them
+when empty, then the next
+rank up of the same suit.
+The play piles face up
+cards must remain stacked
+as decrementing ranks with
+alternating colors. You
+can: Draw and discard
+3(variant 1) cards. Move
+the top discard to a
+valid pile. Move the top
+face up card from a play
+pile to the appropriate
+goal pile. Move any face
+up card and everything on
+top of it from a play pile
+to another play pile. If
+the top face down card in
+a play pile has nothing on
+top of it flip it over.
+Anything may be played
+face up to an empty play
+pile. If all cards are in
+the goal piles you win.
 
 #### Spoons
 *Players 3-15*
@@ -512,10 +569,15 @@ out of cards they lose
 and are eliminated.
 
 ### Poker
-In Home games dealer usually rotates with each hand.
+In casual games dealer
+usually rotates with
+each hand.
 
 #### Hand Ranks
-The Poker hands from High to Low, ties broken with high cards, in the largest set first.
+The Poker hands from High
+to Low, ties broken with
+high cards, in the
+largest set first.
 
 1. Quintet
 2. Straight and Flush
@@ -526,12 +588,25 @@ The Poker hands from High to Low, ties broken with high cards, in the largest se
 7. Triple
 8. 2 Pairs
 9. Pair
-10. No Pairs
+10. No Pairs, High card
 
 #### Betting
 A forced blind bet is
-played before dealing to
-start the winnings pot.
+often played before
+dealing to start the
+winnings pot. Either a
+fixed ante from all
+players or the first 2
+players must make a
+small and big blind bet
+that will be called in
+the first betting round
+after dealing.
+
+A limit maybe be placed
+on how much of an open
+or raise a player can
+do in a single round.
 
 For each round of betting,
 Before the first bet you
@@ -560,6 +635,10 @@ Once every player has
 folded, called or checked,
 betting is over.
 
+If all other players fold,
+the remaining player wins
+and is not required to show
+their hand.
 
 #### Poker, 5-card Draw
 *Players 2-8*
@@ -581,10 +660,88 @@ player reveals their hand.
 Best hand wins.
 
 #### Poker, 7-card Stud
-*Players 2-6*
+*Players 2-8*
+Deal players 2 face down,
+1 face up. Start the 1st
+betting round with the
+player showing the lowest
+ranked card. Then, burn 1
+and deal players 1 up-card.
+Start the 2nd betting
+round with the player
+showing the highest ranked
+poker hand. Burn 1 card
+and deal players 1 up-card.
+The 3rd betting round as
+the 2nd. Burn 1 card and
+deal players 1 up-card.
+The 4th betting round as
+the 2nd. Burn 1 card and
+deal players 1 down-card.
+The Final betting round as
+the 2nd. Remaining players
+reveal their hands.
+Best 5-card hand wins.
 
 #### Poker, Texas Hold 'em
-*Players 2-6*
+*Players 2-20*
+Blind bets are placed.
+Deal players 2 down-cards.
+1st betting round.
+Burn 1 card and deal the
+flop, 3 common cards face
+up. 2nd betting round.
+Burn 1 card and deal the
+turn, 1 common card face
+up. 3nd betting round.
+Burn 1 card and deal the
+river, 1 common card face
+up. Final betting round.
+Remaining players reveal
+their hands. Best 5-card
+hand, made from hand and
+common cards, wins.
+
+#### Poker, 7-card Draft (Custom)
+*Players 2-8*
+Blind bets are placed.
+Deal players 1 face up,
+5 face down. Start the 1st
+betting round with the
+player showing the highest
+ranked card.
+Each player passes 4
+down-cards to the left.
+Each player passes 3
+down-cards to the left.
+Each player passes 2
+down-cards to the right.
+Each player passes 1
+down-cards to the right.
+2nd betting round.
+Burn 1 card and
+deal players 1 down-card.
+Final betting round.
+Remaining players reveal
+their hands. Best 5-card
+hand wins.
+
+#### Poker, 5-card Commerce (Custom)
+*Players 3-10*
+Blind bets are placed.
+Deal players 5 cards.
+Deal 1 face up market
+cards. On your turn,
+You may trade 1-5 cards
+with the market or knock.
+Then if the market has
+less than 5, deal it 1.
+Once a player knocks, all
+other players get one
+more turn to trade.
+Final betting round.
+Remaining players reveal
+their hands. Best hand wins.
 
 ### Rummy Games
 After dealing players
@@ -771,31 +928,11 @@ score. 5 points wins.
 
 ## TODO Games
 
-### Patience Games
-#### Solitaire (Klondike)
-*Players 1*
-#### Peanuts (Nerts)
-*Players 1*
-#### Spite and Malice
-*Players 1*
-#### Kings in the corner
-*Players 1*
-
-#### Poker Commerce Hybrid
-
 #### Cassino
 
+#### Cribbage
 
 #### Fool / Full Durak
-*Players 2-6*
-Deal players 6 cards.
-Place the bottom card of the deck face up to determine trump suit.
-Player with the lowest trump suit attacks first.
-Defender is always player to attacker's left.
-Attacker plays a card. Defender must play a higher value card of the same suit or any trump.
-
-
-stock is turned and placed face up on the table, its suit determining the trump suit for the current deal
 
 #### Pyramid (work in progress)
 *Players 1+*
@@ -815,7 +952,5 @@ Turn
     1. draw pile, if empty grab the discard pile keeping the same order
     2. at random from another player's hand they then draw a card.
 
-#### Cribbage
-*Players 2-8*
 
 

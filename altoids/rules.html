@@ -77,6 +77,14 @@ dd {
   padding-left: 1em;
 }
 
+ol {
+  padding-left: 2em;
+}
+
+#poker {
+  break-before: column;
+}
+
 @page {
   size: letter portrait;
 
@@ -87,31 +95,58 @@ dd {
 </head>
 <body>
 
-<h4 id="terms">Terms</h4>
+<h2 id="game-rules">Game Rules</h2>
+<h3 id="terms">Terms</h3>
 <dl>
 <dt>Pair</dt>
 <dd>
-2 cards of the same rank aka 2-of-a-kind
+2 cards of the same rank aka 2-of-a-kind.
 </dd>
 <dt>Triple</dt>
 <dd>
-3 cards of the same rank aka 3-of-a-kind
+3 cards of the same rank aka 3-of-a-kind.
 </dd>
 <dt>Quartet</dt>
 <dd>
-4 cards of the same rank aka 4-of-a-kind or book
+4 cards of the same rank aka 4-of-a-kind or book.
+</dd>
+<dt>Quintet</dt>
+<dd>
+5 cards of the same rank. Only possible with wilds or multiple decks.
+</dd>
+<dt>Eldest (Hand)</dt>
+<dd>
+Player to the left of the dealer, usually first player.
 </dd>
 <dt>Play Order</dt>
 <dd>
-Default play goes clockwise, with play passing to the left
+Standard play starts with the Eldest Hand and goes clockwise, with play
+passing to the left.
 </dd>
 <dt>Fold</dt>
 <dd>
-Forfeit of the game surrendering to move on to next game or hand
+Forfeit of the game surrendering to move on to next game or hand.
 </dd>
 <dt>Rank</dt>
 <dd>
-Ordered Low to High 1 2 3 4 5 6 7 8 9 0 J M Q K A
+Ordered Low to High: 1 2 3 4 5 6 7 8 9 0 J M Q K A.
+</dd>
+<dt>Flush</dt>
+<dd>
+Set of cards, usually 5, all same suit.
+</dd>
+<dt>Straight</dt>
+<dd>
+Set of cards all of consecutive ranks.
+</dd>
+<dt>Straight Flush</dt>
+<dd>
+Set of cards both a straight and a flush.
+</dd>
+<dt>Wild Cards</dt>
+<dd>
+Card treated as if it were any card. Wild cards should be agreed upon
+before play starts.
 </dd>
 </dl>
 <h4 id="draw-lots-cut-for-high-card">Draw Lots (Cut for High Card)</h4>
@@ -129,31 +164,26 @@ wins. In casino variants, all players play with revealed cards against
 the house hand, which wins ties, is forced to hit on 16 or less, and
 stay on 17 or more. After all players turns, the house hand is fully
 revealed before it "plays".</p>
-<h4 id="cribbage-noddy">Cribbage (Noddy)</h4>
-<p><em>Players 2-6</em></p>
-<h4 id="durak">Durak</h4>
-<p><em>Players 2-6</em></p>
-<h4 id="switch">Switch</h4>
-<p><em>Players 2-6</em></p>
 <h4 id="bluff">Bluff</h4>
 <p><em>Players 2-6</em> Deal deck fully out to all players as their
-hands. Play progress to left from the dealer, starting with Aces. On
-your turn, you call out a number of 1 or more cards and rank up or down
-1 from the rank called by the last player and discard that many cards
-face down. If a challenger calls your "bluff" before the next player
-plays cards, those cards are revealed. If the revealed cards don't match
-what was called you take the discard pile to your hand. If they do
-match, the challenger takes them instead. You win when you run out of
-cards.</p>
-<h4 id="crazy-eights">Crazy Eights</h4>
-<p><em>Players 2-8</em> Each player gets 5 cards. Discard top card of
-deck. On each turn, You must draw cards until you can play a card that
-matches the suit or rank of the last discard, or a Crazy 8 (declaring a
-new suit to match). Playing a 2 the next player must draw 2 cards,
-unless they play a 2 instead the player after them must draw 4 etc.
-Playing a Queen skips the next player. Playing an Ace reverses the
-direction of play. First to shed their hand scores cards in all
-opponent's hands 50 for 8s, rank for numbers and 10 for others.</p>
+hands. Standard play order starting with Aces. On your turn, you call
+out a number of 1 or more cards and rank up or down 1 from the rank
+called by the last player and discard that many cards face down. If a
+challenger calls your "bluff" before the next player plays cards, those
+cards are revealed. If the revealed cards don't match what was called
+you take the discard pile to your hand. If they do match, the challenger
+takes them instead. You win when you run out of cards.</p>
+<h4 id="crazy-eights-switch">Crazy Eights / Switch</h4>
+<p><em>Players 2-8</em> Deal players 5 cards. Discard top card of deck.
+On each turn, You must draw cards until you can play a card that matches
+the suit or rank of the last discard, or a Crazy 8 (declaring a new suit
+to match). Playing a 2 the next player must draw 2 cards, unless they
+play a 2 instead the player after them must draw 4 etc. Playing a Queen
+skips the next player. Playing an Ace reverses the direction of play.
+First to shed their hand scores cards in all opponent's hands. 50 for
+8s, face value for numbers and 10 for others. 2 common additional rules:
+4 works like 2, but draws 4 cards. When playing your 2nd to last card
+you must announce it.</p>
 <h4 id="go-fish">Go Fish</h4>
 <p><em>Players 2-8</em> Deal players 5 cards. Remaining cards are the
 pool. On each turn you ask any another player for their cards of a
@@ -163,30 +193,51 @@ pool. If the card drawn is the card asked for reveal it and take another
 turn. If at any time you have a quartet, and the cards must be placed
 down face up. When all quartets have been completed, the player with the
 most quartets wins.</p>
+<h4 id="kings-in-the-corner">Kings in the corner</h4>
+<p><em>Players 2-7</em> Deal players 7 cards. Place the deck in the
+middle of the tableau. Draw 4 cards placing 1 on each side of the deck,
+with open corner space. On your turn, you may make any number of valid
+placements: King to an empty corner. Card to an empty side. Card to a
+side such that is is place on top of a card 1 rank higher with opposite
+color. Move an entire side pile as if it was the bottom card of the
+pile. End your turn by drawing a card. First to empty their hand
+wins.</p>
 <h4 id="old-maid">Old Maid</h4>
 <p><em>Players 2-11</em> 3 queens are removed from a deck, the remaining
-queen is the Old Maid. Draw lots for dealer first player is to dealers
-left. Deal out cards. On each turn you play a matched pair or draw a
-card from the player on your left. If you have no more cards you win,
-removing you from play. Play continues to see who will be left with the
-Old Maid.</p>
+queen is the Old Maid. Draw lots for dealer, standard play order. Deal
+out cards. On each turn you play a matched pair or draw a card from the
+player on your left. If you have no more cards you win, removing you
+from play. Play continues to see who will be left with the Old Maid.</p>
 <h4 id="palace">Palace</h4>
-<p><em>Players 2-6</em> Deal each player 9 cards, 3 downcards in a row,
-3 upcards face up on the downcards, and 3 hand cards. The hand cards
-must all be played before upcards which must be played before down
+<p><em>Players 2-6</em> Deal each player 9 cards, 3 down-cards in a row,
+3 up-cards face up on the down-cards, and 3 hand cards. The hand cards
+must all be played before up-cards which must be played before down
 cards. Before play begins player may swap cards between their hand and
 face up cards, but they may not even look at the face down cards. On you
 turn, you must discard 1 or more cards, all of the same rank equal to or
 higher rank than the last card discarded or you must take the entire
-discard pile into your hand. Downcards are played site unseen and if the
-card played is less than the last discard you take the entire discard
-pile into your hand. The lowest rank card (a 1) may be played on any
-card, and any card may follow it. 10s may be played on any card, and
+discard pile into your hand. Down-cards are played site unseen and if
+the card played is less than the last discard you take the entire
+discard pile into your hand. The lowest rank card (a 1) may be played on
+any card, and any card may follow it. 10s may be played on any card, and
 then the discard is removed from the game. The same player then goes
 again starting a new discard. If 4 cards of the same rank are on top of
 the discard pile either all at once or across multiple turns, it is the
-same as a 10. The last player to empty their hand, upcards and downcards
-loses.</p>
+same as a 10. The last player to empty their hand, up-cards and
+down-cards loses.</p>
+<h4 id="solitaire-klondike">Solitaire (Klondike)</h4>
+<p><em>Players 1</em> Deal 7 face down play piles, each contains 1 more
+card from left to right. The top card on each pile is face up. There are
+4 initially empty goal piles. The goal piles can have the lowest rank
+placed on them when empty, then the next rank up of the same suit. The
+play piles face up cards must remain stacked as decrementing ranks with
+alternating colors. You can: Draw and discard 3(variant 1) cards. Move
+the top discard to a valid pile. Move the top face up card from a play
+pile to the appropriate goal pile. Move any face up card and everything
+on top of it from a play pile to another play pile. If the top face down
+card in a play pile has nothing on top of it flip it over. Anything may
+be played face up to an empty play pile. If all cards are in the goal
+piles you win.</p>
 <h4 id="spoons">Spoons</h4>
 <p><em>Players 3-15</em> N players need N quartet of cards and N-1
 spoons or similar safe hand held objects. Place the spoons in the middle
@@ -206,81 +257,85 @@ putting them on the bottom of their deck. Ties result in a War between
 tied players. Each player in the war plays an extra card face down and
 then reveals a card face up as in the Battle. If a player runs out of
 cards they lose and are eliminated.</p>
-<h3 id="poker-hand-ranks">Poker Hand Ranks</h3>
-<p>The Poker hands from High to Low:</p>
-<table>
-<thead>
-<tr class="header">
-<th>Poker Hand</th>
-<th>Description</th>
-<th>Tie breaker</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>5 of a Kind</td>
-<td>5 of 1 rank</td>
-<td>5 rank</td>
-</tr>
-<tr class="even">
-<td>Straight Flush</td>
-<td>Straight and Flush</td>
-<td>High card</td>
-</tr>
-<tr class="odd">
-<td>4 of a Kind</td>
-<td>4 of 1 rank</td>
-<td>4 rank first</td>
-</tr>
-<tr class="even">
-<td>Full House</td>
-<td>3 of 1 rank, 2 of another</td>
-<td>3 rank, 2 rank</td>
-</tr>
-<tr class="odd">
-<td>Flush</td>
-<td>All same suit</td>
-<td>High card</td>
-</tr>
-<tr class="even">
-<td>Straight</td>
-<td>All consecutive ranks</td>
-<td>High card</td>
-</tr>
-<tr class="odd">
-<td>3 of a Kind</td>
-<td>3 of 1 rank</td>
-<td>3 rank first</td>
-</tr>
-<tr class="even">
-<td>2 Pair</td>
-<td>2 of 1 rank, 2 of another</td>
-<td>2 ranks first</td>
-</tr>
-<tr class="odd">
-<td>1 Pair</td>
-<td>2 of 1 rank</td>
-<td>2 rank first</td>
-</tr>
-<tr class="even">
-<td>No Pairs</td>
-<td>Nothing above</td>
-<td>High card</td>
-</tr>
-</tbody>
-</table>
+<h3 id="poker">Poker</h3>
+<p>In casual games dealer usually rotates with each hand.</p>
+<h4 id="hand-ranks">Hand Ranks</h4>
+<p>The Poker hands from High to Low, ties broken with high cards, in the
+largest set first.</p>
+<ol>
+<li>Quintet</li>
+<li>Straight and Flush</li>
+<li>Quartet</li>
+<li>Full House=Triple &amp; Pair</li>
+<li>5 card Flush</li>
+<li>5 card Straight</li>
+<li>Triple</li>
+<li>2 Pairs</li>
+<li>Pair</li>
+<li>No Pairs, High card</li>
+</ol>
 <h4 id="betting">Betting</h4>
+<p>A forced blind bet is often played before dealing to start the
+winnings pot. Either a fixed ante from all players or the first 2
+players must make a small and big blind bet that will be called in the
+first betting round after dealing.</p>
+<p>A limit maybe be placed on how much of an open or raise a player can
+do in a single round.</p>
+<p>For each round of betting, Before the first bet you may Check, not
+place a bet; or Open, make the first bet. After the open you may Fold,
+forfeit the hand losing any bets; Call, match the high bet or go all-in;
+Raise, increase the high bet.</p>
+<p>A player wishing to call, but with insufficient stakes may go all-in,
+betting all remaining stakes. This caps the high bet of main pot at the
+all-in amount. Any bets over this amount are placed in a side pot, and
+cannot be won by the all-in player.</p>
+<p>Once every player has folded, called or checked, betting is over.</p>
+<p>If all other players fold, the remaining player wins and is not
+required to show their hand.</p>
 <h4 id="poker-5-card-draw">Poker, 5-card Draw</h4>
-<p><em>Players 2-6</em></p>
+<p><em>Players 2-8</em> Blind bets are placed. Deal players 5 cards.
+Then start the 1st betting round with the Eldest. In turn order each
+remaining player discards and is dealt a number of cards, up to 3, 4
+cards may be discarded if the player reveals an Ace. Then start the 2nd
+betting round with whoever opened in the 1st round. In turn order, each
+remaining player reveals their hand. Best hand wins.</p>
 <h4 id="poker-7-card-stud">Poker, 7-card Stud</h4>
-<p><em>Players 2-6</em></p>
+<p><em>Players 2-8</em> Deal players 2 face down, 1 face up. Start the
+1st betting round with the player showing the lowest ranked card. Then,
+burn 1 and deal players 1 up-card. Start the 2nd betting round with the
+player showing the highest ranked poker hand. Burn 1 card and deal
+players 1 up-card. The 3rd betting round as the 2nd. Burn 1 card and
+deal players 1 up-card. The 4th betting round as the 2nd. Burn 1 card
+and deal players 1 down-card. The Final betting round as the 2nd.
+Remaining players reveal their hands. Best 5-card hand wins.</p>
 <h4 id="poker-texas-hold-em">Poker, Texas Hold 'em</h4>
-<p><em>Players 2-6</em></p>
-<h3 id="rummy">Rummy</h3>
+<p><em>Players 2-20</em> Blind bets are placed. Deal players 2
+down-cards. 1st betting round. Burn 1 card and deal the flop, 3 common
+cards face up. 2nd betting round. Burn 1 card and deal the turn, 1
+common card face up. 3nd betting round. Burn 1 card and deal the river,
+1 common card face up. Final betting round. Remaining players reveal
+their hands. Best 5-card hand, made from hand and common cards,
+wins.</p>
+<h4 id="poker-7-card-draft-custom">Poker, 7-card Draft (Custom)</h4>
+<p><em>Players 2-8</em> Blind bets are placed. Deal players 1 face up, 5
+face down. Start the 1st betting round with the player showing the
+highest ranked card. Each player passes 4 down-cards to the left. Each
+player passes 3 down-cards to the left. Each player passes 2 down-cards
+to the right. Each player passes 1 down-cards to the right. 2nd betting
+round. Burn 1 card and deal players 1 down-card. Final betting round.
+Remaining players reveal their hands. Best 5-card hand wins.</p>
+<h4 id="poker-5-card-commerce-custom">Poker, 5-card Commerce
+(Custom)</h4>
+<p><em>Players 3-10</em> Blind bets are placed. Deal players 5 cards.
+Deal 1 face up market cards. On your turn, You may trade 1-5 cards with
+the market or knock. Then if the market has less than 5, deal it 1. Once
+a player knocks, all other players get one more turn to trade. Final
+betting round. Remaining players reveal their hands. Best hand wins.</p>
+<h3 id="rummy-games">Rummy Games</h3>
 <p>After dealing players cards top card of the deck is discarded. Create
 melds of either sets or Triples or Quartets or runs of 3 or more cards
 of the same suit in rank order.</p>
-<h4 id="rummy-1">500 Rummy</h4>
+<h4 id="rummy">500 Rummy</h4>
 <p><em>Players 2-8</em> Aces may be played either high or low. Deal
 players 7 cards. On your turn, draw either the top card of the stock or
 any card from the discard. Then lay down face up any meld of matching
@@ -324,30 +379,26 @@ one is played. Taking all the hearts and the queen, gives all points to
 each opponent instead. 500 points loses.</p>
 <h4 id="spades">Spades</h4>
 <p><em>Players 2-6 or 10</em> Usually teams of 2. Trump is always
-spades. Dealer's left bids and leads first. Each player bids number of
-tricks they will take. May bid blind, without looking at their cards.
-May bid nil, will take no tricks. Team bids and tricks are added
-together before scoring. If you do not meet the bid -10 points for each
-bid. If you meet the bid, +10 points for each trick bid and +1 for each
-overtrick. If nil is bid, and met exactly +100 points otherwise -100
-points. If bid was blind, and met exactly +100 points otherwise -100
-points. 500 points wins. -200 points loses.</p>
+spades. Eldest bids and leads first. Each player bids number of tricks
+they will take. May bid blind, without looking at their cards. May bid
+nil, will take no tricks. Team bids and tricks are added together before
+scoring. If you do not meet the bid -10 points for each bid. If you meet
+the bid, +10 points for each trick bid and +1 for each overtrick. If nil
+is bid, and met exactly +100 points otherwise -100 points. If bid was
+blind, and met exactly +100 points otherwise -100 points. 500 points
+wins. -200 points loses.</p>
 <h4 id="trumps">Trumps</h4>
 <p><em>Players 4, 6, or 10</em> Draw lots for teams of 2 and dealer.
-Dealer's left calls trump and leads any card. Par is number of tricks
-divided by number of teams rounded up. First team to par scores: 1 for
-simple victory, 2 for perfect par, where opponents take no tricks, 3 for
-perfect par if your team does not have the trump caller. 7 points
-wins.</p>
+Eldest calls trump and leads any card. Par is number of tricks divided
+by number of teams rounded up. First team to par scores: 1 for simple
+victory, 2 for perfect par, where opponents take no tricks, 3 for
+perfect par if not the Eldest's team. 7 points wins.</p>
 <h4 id="whist">Whist</h4>
 <p><em>Players 4, 6, or 10</em> Teams of 2. No bidding. The last card
-dealt is revealed to all player and is the trump suit. Dealer's left
-leads any card. Par is the number of tricks in the hand divided by the
-number of teams. The team with the most tricks taken scores 1 for each
-trick taken in excess of the par score. 5 points wins.</p>
-<h3 id="patience">Patience</h3>
-<h4 id="solitaire-klondike">Solitaire (Klondike)</h4>
-<p><em>Players 1</em></p>
+dealt is revealed to all player and is the trump suit. Eldest leads any
+card. Par is the number of tricks in the hand divided by the number of
+teams. The team with the most tricks taken scores 1 for each trick taken
+in excess of the par score. 5 points wins.</p>
 
 </body>
 </html>
