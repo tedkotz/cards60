@@ -285,6 +285,7 @@ are a team, etc.
 
 #### Blackjack or 21
 *Players 1+*
+
 Numerical cards are at
 face values, face cards
 at 10, and aces are
@@ -315,6 +316,7 @@ fully revealed before it
 
 #### Bluff
 *Players 2-6*
+
 Deal deck fully out to
 all players as their
 hands. Standard play order
@@ -341,6 +343,7 @@ cards.
 
 #### Crazy Eights / Switch
 *Players 2-8*
+
 Deal players 5 cards.
 Discard top card of deck.
 On each turn, You must
@@ -371,6 +374,7 @@ announce it.
 
 #### Go Fish
 *Players 2-8*
+
 Deal players 5 cards.
 Remaining cards are the
 pool. On each turn you
@@ -395,6 +399,7 @@ with the most quartets wins.
 
 #### Kings in the corner
 *Players 2-7*
+
 Deal players 7 cards.
 Place the deck in the
 middle of the tableau.
@@ -417,6 +422,7 @@ empty their hand wins.
 
 #### Old Maid
 *Players 2-11*
+
 3 queens are removed from
 a deck, the remaining
 queen is the Old Maid.
@@ -434,6 +440,7 @@ with the Old Maid.
 
 #### Palace
 *Players 2-6*
+
 Deal each player 9 cards,
 3 down-cards in a row,
 3 up-cards face up on the
@@ -447,7 +454,9 @@ may swap cards between
 their hand and face up
 cards, but they may not
 even look at the face
-down cards. On you turn,
+down cards.
+
+On your turn,
 you must discard 1 or
 more cards, all of the
 same rank equal to or
@@ -482,6 +491,7 @@ down-cards loses.
 
 #### Solitaire (Klondike)
 *Players 1*
+
 Deal 7 face down play
 piles, each contains 1
 more card from left to
@@ -517,6 +527,7 @@ the goal piles you win.
 
 #### Spoons
 *Players 3-15*
+
 N players need N quartet of
 cards and N-1 spoons or
 similar safe hand held
@@ -548,6 +559,7 @@ game.
 
 #### War
 *Players 2-6*
+
 Divide cards evenly
 between all players,
 discarding extras. For
@@ -642,6 +654,7 @@ their hand.
 
 #### Poker, 5-card Draw
 *Players 2-8*
+
 Blind bets are placed.
 Deal players 5 cards. Then
 start the 1st betting
@@ -661,6 +674,7 @@ Best hand wins.
 
 #### Poker, 7-card Stud
 *Players 2-8*
+
 Deal players 2 face down,
 1 face up. Start the 1st
 betting round with the
@@ -685,6 +699,7 @@ Best 5-card hand wins.
 
 #### Poker, Texas Hold 'em
 *Players 2-20*
+
 Blind bets are placed.
 Deal players 2 down-cards.
 1st betting round.
@@ -702,8 +717,9 @@ their hands. Best 5-card
 hand, made from hand and
 common cards, wins.
 
-#### Poker, 7-card Draft (Custom)
+#### Poker, 7-card Draft (New)
 *Players 2-8*
+
 Blind bets are placed.
 Deal players 1 face up,
 5 face down. Start the 1st
@@ -726,8 +742,9 @@ Remaining players reveal
 their hands. Best 5-card
 hand wins.
 
-#### Poker, 5-card Commerce (Custom)
+#### Poker, 5-card Commerce (New)
 *Players 3-10*
+
 Blind bets are placed.
 Deal players 5 cards.
 Deal 1 face up market
@@ -755,6 +772,7 @@ suit in rank order.
 
 #### 500 Rummy
 *Players 2-8*
+
 Aces may be played either
 high or low. Deal players
 7 cards. On your turn,
@@ -786,6 +804,7 @@ to play breaks ties.
 
 #### Gin Rummy
 *Players 2-8*
+
 Aces are played low. Deal
 players 10 cards. On your
 turn, Draw either the top
@@ -805,7 +824,9 @@ ends without scoring. Aces
 are valued at 1 point,
 face cards at 10, and
 numerical cards are at
-face values. Knocking
+face values.
+
+Knocking
 player scores the points
 of his opponent's dead
 wood less his own. If you
@@ -848,6 +869,7 @@ team members is allowed.
 
 #### Hearts
 *Players 2-6 or 10*
+
 No trumps, or bidding.
 Teams optional.
 Lowest Clubs(1C) leads
@@ -865,6 +887,7 @@ opponent instead.
 
 #### Spades
 *Players 2-6 or 10*
+
 Usually teams of 2.
 Trump is always spades.
 Eldest bids and leads
@@ -892,6 +915,7 @@ otherwise -100 points.
 
 #### Trumps
 *Players 4, 6, or 10*
+
 Draw lots for teams of 2
 and dealer. Eldest calls
 trump and leads any card.
@@ -908,6 +932,7 @@ the Eldest's team.
 
 #### Whist
 *Players 4, 6, or 10*
+
 Teams of 2. No bidding.
 The last card dealt is
 revealed to all player and
