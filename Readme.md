@@ -284,7 +284,7 @@ a team, then the next 2
 are a team, etc.
 
 #### Blackjack or 21
-*Players 1+*
+*Classic casino game to get 21 without going over for 1+ Players*
 
 Numerical cards are at
 face values, face cards
@@ -315,7 +315,7 @@ fully revealed before it
 "plays".
 
 #### Bluff
-*Players 2-6*
+*Lie to shed your cards first for 2-6 Players*
 
 Deal deck fully out to
 all players as their
@@ -342,7 +342,7 @@ win when you run out of
 cards.
 
 #### Crazy Eights / Switch
-*Players 2-8*
+*Classic UNO-like game for 2-8 Players*
 
 Deal players 5 cards.
 Discard top card of deck.
@@ -373,7 +373,7 @@ numbers and 10 for others.
 announce it.
 
 #### Go Fish
-*Players 2-8*
+*Family classic for 2-8 Players*
 
 Deal players 5 cards.
 Remaining cards are the
@@ -398,7 +398,7 @@ completed, the player
 with the most quartets wins.
 
 #### Kings in the corner
-*Players 2-7*
+*Solitaire like game for 2-7 Players*
 
 Deal players 7 cards.
 Place the deck in the
@@ -421,7 +421,7 @@ drawing a card. First to
 empty their hand wins.
 
 #### Old Maid
-*Players 2-11*
+*Match making game for 2-11 Players*
 
 3 queens are removed from
 a deck, the remaining
@@ -439,7 +439,7 @@ to see who will be left
 with the Old Maid.
 
 #### Palace
-*Players 2-6*
+*Shedding game with multiple levels to shed for 2-6 Players*
 
 Deal each player 9 cards,
 3 down-cards in a row,
@@ -526,7 +526,7 @@ pile. If all cards are in
 the goal piles you win.
 
 #### Spoons
-*Players 3-15*
+*Fast paced card passing game for 3-15 Players*
 
 N players need N quartet of
 cards and N-1 spoons or
@@ -558,7 +558,7 @@ all 6 letters loses the
 game.
 
 #### War
-*Players 2-6*
+*Simple Battle game to capture the whole deck for 2-6 Players*
 
 Divide cards evenly
 between all players,
@@ -653,7 +653,7 @@ and is not required to show
 their hand.
 
 #### Poker, 5-card Draw
-*Players 2-8*
+*Classic poker for 2-8 Players*
 
 Blind bets are placed.
 Deal players 5 cards. Then
@@ -673,7 +673,7 @@ player reveals their hand.
 Best hand wins.
 
 #### Poker, 7-card Stud
-*Players 2-8*
+*Vintage Stud for 2-8 Players*
 
 Deal players 2 face down,
 1 face up. Start the 1st
@@ -698,7 +698,7 @@ reveal their hands.
 Best 5-card hand wins.
 
 #### Poker, Texas Hold 'em
-*Players 2-20*
+*Increasingly popular poker for 2-20 Players*
 
 Blind bets are placed.
 Deal players 2 down-cards.
@@ -718,7 +718,7 @@ hand, made from hand and
 common cards, wins.
 
 #### Poker, 7-card Draft (New)
-*Players 2-8*
+*Drafting version on poker for 2-8 Players*
 
 Blind bets are placed.
 Deal players 1 face up,
@@ -743,7 +743,7 @@ their hands. Best 5-card
 hand wins.
 
 #### Poker, 5-card Commerce (New)
-*Players 3-10*
+*Use a market to improve hands for 3-10 Players*
 
 Blind bets are placed.
 Deal players 5 cards.
@@ -771,7 +771,7 @@ more cards of the same
 suit in rank order.
 
 #### 500 Rummy
-*Players 2-8*
+*Classic Rummy for 2-8 Players*
 
 Aces may be played either
 high or low. Deal players
@@ -803,7 +803,7 @@ First to 500 wins. Last
 to play breaks ties.
 
 #### Gin Rummy
-*Players 2-8*
+*Popular Gin for 2-8 Players*
 
 Aces are played low. Deal
 players 10 cards. On your
@@ -820,25 +820,25 @@ hand and score if you have
 deadwood, cards not in a
 meld. If only 2 cards are
 left to draw, the hand
-ends without scoring. Aces
+ends without scoring.
+
+
+Knocking player scores
+the points of his opponent's
+dead wood less his own. Aces
 are valued at 1 point,
 face cards at 10, and
 numerical cards are at
-face values.
-
-Knocking
-player scores the points
-of his opponent's dead
-wood less his own. If you
-have all 10 cards after
-discard meld you get +25
-point gin bonus. If you
-have all 11 cards meld you
-get +31 point big gin
-bonus. If an opponent has
+face values. If an opponent has
 the same or less deadwood
 points then -25 point
-undercut penalty. Player
+undercut penalty.
+If you have all 10 cards after
+discard in a meld get +25
+point gin bonus. If you
+have all 11 cards in a meld
+get +31 point big gin
+bonus. Player
 who knocked deals next
 hand. First to 100 wins.
 
@@ -868,7 +868,7 @@ communication between the
 team members is allowed.
 
 #### Hearts
-*Players 2-6 or 10*
+*Force your opponents to take point cards for 2-6 or 10 Players*
 
 No trumps, or bidding.
 Teams optional.
@@ -886,7 +886,7 @@ opponent instead.
 500 points loses.
 
 #### Spades
-*Players 2-6 or 10*
+*Popular bridge variant with contracts for 2-6 or 10 Players*
 
 Usually teams of 2.
 Trump is always spades.
@@ -914,7 +914,7 @@ otherwise -100 points.
 -200 points loses.
 
 #### Trumps
-*Players 4, 6, or 10*
+*Popular Whist variant where players set the rules for 4, 6, or 10 Players*
 
 Draw lots for teams of 2
 and dealer. Eldest calls
@@ -931,7 +931,7 @@ the Eldest's team.
 7 points wins.
 
 #### Whist
-*Players 4, 6, or 10*
+*Classic trick taking team game for 4, 6, or 10 Players*
 
 Teams of 2. No bidding.
 The last card dealt is
@@ -961,6 +961,7 @@ score. 5 points wins.
 
 #### Pyramid (work in progress)
 *Players 1+*
+
 create a card pyramid
 base level = 9 - number of players (min 4)
 take all the aces and kings out of the deck, deal one to each player.
