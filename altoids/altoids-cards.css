@@ -27,23 +27,13 @@ body {
  font-size: 100%;
 }
 
-.back {
- border-radius: 3pt;
- background-color: white;
-}
-
-.back>div {
- border-radius: 0.25in;
- background-image: radial-gradient(black 10%, red 95%);
-}
-
 .back>div,
 .vcard {
  position: relative;
- /* width+height+margin = 2x3.5 */
+ /* width+height+margin = 2x3.375 */
  width: 1.75in;
  height: 3in;
- margin: 0.25in 0.125in 0.25in 0.125in;
+ margin: 0.1875in 0.125in 0.1875in 0.125in;
 }
 
 .vcard>.corner {
@@ -54,17 +44,18 @@ body {
 .vcard>.corner>.rank,
 .vcard>.corner>.suit {
   font-size: 45pt;
+  line-height: 0.5in;
   text-align: center;
   width: 0.375in;
 }
 
 .vcard>.corner>.rank {
-  line-height: 0.5625in;
+/*  line-height: 0.5625in; */
   height: 0.5625in;
 }
 
 .vcard>.corner>.suit {
-  line-height: 0.375in; /*Adjusts for placement of suit symbol in font*/
+/*  line-height: 0.375in; *//*Adjusts for placement of suit symbol in font*/
   height: 0.375in;
 }
 
@@ -90,7 +81,7 @@ body {
 }
 
 .vcard>.field>.ace {
-  font-size:  84pt;
+  font-size:  99pt;
   line-height: 2in;
   height: 100%;
   width: 100%;
@@ -188,15 +179,24 @@ body{
 }
 }
 
-@media screen and (min-width: 12in) {
+@media screen and (min-width: 12in) and (max-width: 14in) {
 body{
  grid-template-columns: 2in 2in 2in 2in 2in 2in;
  width: 12in;
 }
 }
 
+@media screen and (min-width: 14in) {
+body{
+ grid-template-columns: 2in 2in 2in 2in 2in 2in 2in;
+ width: 14in;
+}
+}
+
 /* body(width+height)+page(margin) = 8.5x11 */
 /* At the default 96px = 1in the rendered size of a page should be 816x1056 */
+/*
+landscape 10 per page
 @media print {
   body{
    grid-template-columns: 2in 2in 2in 2in 2in;
@@ -210,14 +210,15 @@ body{
   @page {
     size: letter landscape;
 
-    margin: 0.75in 0.5in;
+    margin: 0.875in 0.5in;
   }
 }
 
-/*
-@media print and (max-aspect-ratio: 1) {
+portrait 12 per page
+@media print {
   body{
    grid-template-columns: 2in 2in 2in 2in;
+   width: 8in;
   }
 
   .vcard:nth-of-type(12n) {
@@ -227,10 +228,28 @@ body{
   @page {
     size: letter portrait;
 
-    margin: 0.25in 0.25in;
+    margin: 0.4375in 0.25in;
   }
 }
+
+portrait 9 per page
 */
+@media print {
+  body{
+   grid-template-columns: 2in 2in 2in;
+   width: 6in;
+  }
+
+  .vcard:nth-of-type(9n) {
+    break-after: page;
+  }
+
+  @page {
+    size: letter portrait;
+
+    margin: 0.4375in 1.25in;
+  }
+}
 
 /* body(width+height)+page(margin) = 210x297 */
 /* At the default 480px = 127mm the rendered size of a page should be 793.7x1122.52 */
